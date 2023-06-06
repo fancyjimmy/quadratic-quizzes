@@ -1,0 +1,1287 @@
+[
+	{
+		"question": "Was ist Network Address Translation (NAT) und warum wird es verwendet?",
+		"answers": [
+			{
+				"value": "NAT ist ein Verfahren, bei dem private IP-Adressen innerhalb eines lokalen Netzwerks in öffentliche IP-Adressen umgewandelt werden, um den Datenverkehr im Internet zu ermöglichen. Es wird verwendet, um den Mangel an öffentlichen IP-Adressen zu beheben und die Sicherheit des Netzwerks zu verbessern.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "NAT ist ein Protokoll zur Übertragung von Daten im Internet. Es wird verwendet, um eine sichere Verbindung zwischen zwei Computern herzustellen.",
+				"reason": "Diese Antwort ist falsch, weil NAT nicht nur ein Protokoll ist, sondern auch eine Methode zur Umwandlung von IP-Adressen.",
+				"correct": false
+			},
+			{
+				"value": "NAT ist eine Software zur Überwachung der Netzwerkauslastung. Es wird verwendet, um sicherzustellen, dass alle Geräte im Netzwerk optimal funktionieren.",
+				"reason": "Diese Antwort ist falsch, weil NAT keine Netzwerküberwachungssoftware ist.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Wie funktioniert NAT?",
+		"answers": [
+			{
+				"value": "NAT funktioniert, indem es den Quell-IP-Adressen von Paketen, die von einem lokalen Netzwerk stammen, eine öffentliche IP-Adresse zuweist, bevor sie das Internet erreichen. Wenn die Antwortpakete zurückkommen, werden sie an die öffentliche IP-Adresse des Routers gesendet und NAT übersetzt die öffentliche IP-Adresse in die richtige private IP-Adresse und sendet das Paket an den richtigen Computer im lokalen Netzwerk.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "NAT funktioniert, indem es alle Pakete, die von einem lokalen Netzwerk stammen, einfach weiterleitet, ohne dass eine Übersetzung erforderlich ist.",
+				"reason": "Diese Antwort ist falsch, weil NAT immer eine Übersetzung durchführt.",
+				"correct": false
+			},
+			{
+				"value": "NAT funktioniert, indem es die öffentlichen IP-Adressen von Paketen, die von einem lokalen Netzwerk stammen, in private IP-Adressen umwandelt, bevor sie das Internet erreichen.",
+				"reason": "Diese Antwort ist falsch, weil NAT genau das Gegenteil tut - es wandelt private IP-Adressen in öffentliche IP-Adressen um.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Wie funktioniert NAT?",
+		"answers": [
+			{
+				"value": "NAT funktioniert, indem es den Quell-IP-Adressen von Paketen, die von einem lokalen Netzwerk stammen, eine öffentliche IP-Adresse zuweist, bevor sie das Internet erreichen. Wenn die Antwortpakete zurückkommen, werden sie an die öffentliche IP-Adresse des Routers gesendet und NAT übersetzt die öffentliche IP-Adresse in die richtige private IP-Adresse und sendet das Paket an den richtigen Computer im lokalen Netzwerk.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "NAT funktioniert, indem es alle Pakete, die von einem lokalen Netzwerk stammen, einfach weiterleitet, ohne dass eine Übersetzung erforderlich ist.",
+				"reason": "Diese Antwort ist falsch, weil NAT immer eine Übersetzung durchführt.",
+				"correct": false
+			},
+			{
+				"value": "NAT funktioniert, indem es die öffentlichen IP-Adressen von Paketen, die von einem lokalen Netzwerk stammen, in private IP-Adressen umwandelt, bevor sie das Internet erreichen.",
+				"reason": "Diese Antwort ist falsch, weil NAT genau das Gegenteil tut - es wandelt private IP-Adressen in öffentliche IP-Adressen um.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist Port Address Translation (PAT) und wie unterscheidet es sich von NAT?",
+		"answers": [
+			{
+				"value": "PAT ist eine spezielle Form von NAT, bei der auch Ports für die Übersetzung verwendet werden. Es wird verwendet, um mehrere Computer im selben lokalen Netzwerk mit einer einzigen öffentlichen IP-Adresse zu verbinden. Bei PAT verwendet NAT eine Kombination aus Quell, IP-Adresse und Portnummer, um die Zuordnung zwischen den privaten und öffentlichen Adressen herzustellen.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "PAT ist ein anderer Name für NAT und sie sind genau gleich.",
+				"reason": "Diese Antwort ist falsch, weil PAT eine spezielle Form von NAT ist, die Portnummern für die Übersetzung verwendet.",
+				"correct": false
+			},
+			{
+				"value": "PAT ist ein Protokoll, das für die Übertragung von Daten im Internet verwendet wird.",
+				"reason": "Diese Antwort ist falsch, weil PAT keine Übertragungsprotokoll ist, sondern eine Methode zur Übersetzung von IP-Adressen und Portnummern.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was sind die Unterschiede zwischen UDP und TCP?",
+		"answers": [
+			{
+				"value": "UDP ist ein einfaches und schnelles Protokoll, das keine Verbindung zwischen den beteiligten Geräten herstellt und keine Zuverlässigkeitsmechanismen wie Bestätigungen oder Flusskontrolle enthält. TCP hingegen ist ein verbindungsorientiertes Protokoll, das Bestätigungen und Flusskontrolle verwendet, um sicherzustellen, dass Daten zuverlässig übertragen werden.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "UDP ist sicherer als TCP, weil es keine Verbindung zwischen den beteiligten Geräten herstellt und keine Bestätigungen oder Flusskontrolle verwendet, was es schwieriger macht, Daten abzufangen oder zu stören. TCP hingegen ist anfälliger für Angriffe.",
+				"reason": "Diese Antwort ist falsch, weil UDP weniger Sicherheitsmechanismen als TCP enthält.",
+				"correct": false
+			},
+			{
+				"value": "UDP und TCP sind genau gleich und können austauschbar verwendet werden.",
+				"reason": "Diese Antwort ist falsch, weil UDP und TCP unterschiedliche Eigenschaften haben.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was sind die Unterschiede zwischen UDP und TCP?",
+		"answers": [
+			{
+				"value": "UDP ist ein einfaches und schnelles Protokoll, das keine Verbindung zwischen den beteiligten Geräten herstellt und keine Zuverlässigkeitsmechanismen wie Bestätigungen oder Flusskontrolle enthält. TCP hingegen ist ein verbindungsorientiertes Protokoll, das Bestätigungen und Flusskontrolle verwendet, um sicherzustellen, dass Daten zuverlässig übertragen werden.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "UDP ist sicherer als TCP, weil es keine Verbindung zwischen den beteiligten Geräten herstellt und keine Bestätigungen oder Flusskontrolle verwendet, was es schwieriger macht, Daten abzufangen oder zu stören. TCP hingegen ist anfälliger für Angriffe.",
+				"reason": "Diese Antwort ist falsch, weil UDP weniger Sicherheitsmechanismen als TCP enthält.",
+				"correct": false
+			},
+			{
+				"value": "UDP und TCP sind genau gleich und können austauschbar verwendet werden.",
+				"reason": "Diese Antwort ist falsch, weil UDP und TCP unterschiedliche Eigenschaften haben.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist Flusskontrolle und warum wird sie in TCP verwendet?",
+		"answers": [
+			{
+				"value": "Flusskontrolle ist ein Mechanismus, der sicherstellt, dass der Empfänger nicht mit Daten überflutet wird, indem er den Sender anweist, nur eine begrenzte Anzahl von Daten zu senden, bevor er auf eine Bestätigung wartet. Flusskontrolle wird in TCP verwendet, um sicherzustellen, dass Daten zuverlässig übertragen werden und nicht verloren gehen oder beschädigt werden.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Flusskontrolle ist ein Mechanismus zur Übertragung von Daten im Internet. Es wird verwendet, um sicherzustellen, dass Daten schnell und effizient übertragen werden.",
+				"reason": "Diese Antwort ist falsch, weil Flusskontrolle kein Übertragungsmechanismus ist, sondern eine Methode zur Kontrolle des Datenflusses.",
+				"correct": false
+			},
+			{
+				"value": "Flusskontrolle ist eine Art von Verschlüsselung, die in TCP verwendet wird, um Daten zu schützen.",
+				"reason": "Diese Antwort ist falsch, weil Flusskontrolle keine Verschlüsselung ist, sondern eine Methode zur Kontrolle des Datenflusses.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist der Unterschied zwischen UDP und TCP in Bezug auf die Paketverluste?",
+		"answers": [
+			{
+				"value": "UDP hat eine höhere Wahrscheinlichkeit für Paketverluste, da es keine Bestätigungen oder Wiederholungen von verlorenen Paketen gibt. TCP hingegen verwendet Bestätigungen und Wiederholungen, um sicherzustellen, dass verlorene Pakete erneut gesendet werden, was zu einer zuverlässigeren Übertragung führt.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "UDP und TCP haben die gleiche Wahrscheinlichkeit für Paketverluste, da sie beide auf derselben Schicht des OSI-Modells arbeiten.",
+				"reason": "Diese Antwort ist falsch, da UDP und TCP unterschiedliche Mechanismen zur Behandlung von Paketverlusten haben.",
+				"correct": false
+			},
+			{
+				"value": "TCP hat eine höhere Wahrscheinlichkeit für Paketverluste, da es eine langsamere Übertragungsrate als UDP hat.",
+				"reason": "Diese Antwort ist falsch, da die Übertragungsrate nicht direkt mit der Wahrscheinlichkeit von Paketverlusten zusammenhängt.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist der Unterschied zwischen VLSM und Subnetting?",
+		"answers": [
+			{
+				"value": "Subnetting ist ein Verfahren zur Aufteilung einer großen Netzwerkadresse in kleinere Netzwerkadressen, während VLSM es ermöglicht, Netzwerke mit unterschiedlichen Größen in einem Netzwerk zusammenzufassen und zu verwalten.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "VLSM und Subnetting sind identisch und können austauschbar verwendet werden.",
+				"reason": "Diese Antwort ist falsch, da VLSM und Subnetting unterschiedliche Konzepte sind.",
+				"correct": false
+			},
+			{
+				"value": "Subnetting ist eine Methode zur Aufteilung eines Netzwerks in mehrere kleinere Netzwerke, während VLSM die Verwendung von variablen Subnetzmasken ermöglicht.",
+				"reason": "Diese Antwort ist teilweise richtig, da Subnetting und VLSM beide Methoden zur Aufteilung von Netzwerken sind, aber VLSM eine erweiterte Methode ist, die variablen Subnetzmasken verwendet.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist Supernetting und wie wird es verwendet?",
+		"answers": [
+			{
+				"value": "Supernetting ist ein Verfahren, das mehrere kleinere Netzwerke zu einem größeren Netzwerk zusammenfasst, um die Anzahl der benötigten Netzwerkadressen zu reduzieren und den Adressraum zu optimieren. Es wird verwendet, um die Anzahl der Routingtabelleneinträge in einem Netzwerk zu reduzieren und die Netzwerkleistung zu verbessern.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Supernetting ist ein Verfahren zur Erweiterung von Subnetzen, indem mehrere Subnetze zu einem einzigen Subnetz zusammengefasst werden. Es wird verwendet, um die Übertragungsgeschwindigkeit und -leistung des Netzwerks zu erhöhen.",
+				"reason": "Diese Antwort ist falsch, da Supernetting nicht verwendet wird, um die Übertragungsgeschwindigkeit und -leistung des Netzwerks zu erhöhen.",
+				"correct": false
+			},
+			{
+				"value": "Supernetting ist eine Methode zur Verschlüsselung von Netzwerkdaten, die in öffentlichen Netzwerken verwendet wird.",
+				"reason": "Diese Antwort ist falsch, da Supernetting nichts mit Verschlüsselung von Daten zu tun hat.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was sind die Vorteile von VLSM und Supernetting?",
+		"answers": [
+			{
+				"value": "VLSM und Supernetting ermöglichen eine effiziente Nutzung des verfügbaren Adressraums, indem sie Netzwerke unterschiedlicher Größe in einem Netzwerk zusammenfassen oder Netzwerke in kleinere Subnetze aufteilen. Sie reduzieren auch die Anzahl der benötigten Netzwerkadressen und Routingtabelleneinträge, was zu einer besseren Netzwerkskalierbarkeit führt.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "VLSM und Supernetting erhöhen die Übertragungsgeschwindigkeit und -leistung des Netzwerks, indem sie Netzwerke in kleinere Segmente aufteilen.",
+				"reason": "Diese Antwort ist falsch, da VLSM und Supernetting keine direkte Auswirkung auf die Übertragungsgeschwindigkeit und -leistung des Netzwerks haben.",
+				"correct": false
+			},
+			{
+				"value": "VLSM und Supernetting führen zu einer höheren Anzahl von Netzwerkadressen und Routingtabelleneinträgen, was zu einer höheren Netzwerklast führt.",
+				"reason": "Diese Antwort ist falsch, da VLSM und Supernetting im Allgemeinen dazu führen, dass weniger Netzwerkadressen und Routingtabelleneinträge benötigt werden, was zu einer niedrigeren Netzwerklast führt.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Wie viele Bytes hat der IPv4-Header?",
+		"answers": [
+			{
+				"value": "20",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "40",
+				"reason": "Diese Antwort ist falsch, da der IPv4-Header in der Regel nur 20 Bytes groß ist.",
+				"correct": false
+			},
+			{
+				"value": "60",
+				"reason": "Diese Antwort ist falsch, da der IPv4-Header in der Regel nur 20 Bytes groß ist.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Feld im IPv4-Header gibt die Länge des Headers in 32-Bit-Wörtern an?",
+		"answers": [
+			{
+				"value": "Header Length",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Total Length",
+				"reason": "Diese Antwort ist falsch, da das Feld 'Total Length' die gesamte Größe des IP-Pakets einschließlich Header und Nutzdaten angibt.",
+				"correct": false
+			},
+			{
+				"value": "Protocol",
+				"reason": "Diese Antwort ist falsch, da das Feld 'Protocol' die Art des Protokolls angibt, das in der Nutzlast des IP-Pakets verwendet wird.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist die maximale Größe eines IPv4-Pakets?",
+		"answers": [
+			{
+				"value": "65,535 Bytes",
+				"reason": "Diese Antwort ist falsch, da die maximale Größe eines IPv4-Pakets durch das 'Total Length'-Feld im IPv4-Header auf 65,535 Bytes begrenzt ist, einschließlich des Headers und der Nutzdaten.",
+				"correct": false
+			},
+			{
+				"value": "64 Bytes",
+				"reason": "Diese Antwort ist falsch, da die minimale Größe eines IPv4-Pakets 20 Bytes (Header) + 0 Bytes (Nutzdaten) = 20 Bytes beträgt.",
+				"correct": false
+			},
+			{
+				"value": "64 Kilobytes",
+				"reason": "",
+				"correct": true
+			}
+		]
+	},
+	{
+		"question": "Wie funktioniert die Fragmentierung von IPv4-Paketen?",
+		"answers": [
+			{
+				"value": "Wenn ein IP-Paket zu groß ist, um auf dem Weg zu einem Ziel weitergeleitet zu werden, wird es in kleinere Fragmente aufgeteilt, die separat über das Netzwerk übertragen werden können.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "IPv4-Pakete werden niemals fragmentiert, da die maximale Größe eines Pakets immer kleiner als die maximal zulässige Größe ist.",
+				"reason": "Diese Antwort ist falsch, da die maximale Größe eines IPv4-Pakets begrenzt ist und es Situationen geben kann, in denen ein Paket zu groß ist, um über das Netzwerk übertragen zu werden.",
+				"correct": false
+			},
+			{
+				"value": "IPv4-Pakete werden immer fragmentiert, um die Übertragungsgeschwindigkeit zu erhöhen.",
+				"reason": "Diese Antwort ist falsch, da die Fragmentierung von IPv4-Paketen in der Regel vermieden wird, wenn möglich, da sie zu einer höheren Netzbelastung führt und die Wahrscheinlichkeit von Datenverlusten erhöht.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Feld im IPv4-Header gibt an, ob ein Fragment das letzte Fragment eines IP-Pakets ist?",
+		"answers": [
+			{
+				"value": "More Fragments",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Fragment Offset",
+				"reason": "Diese Antwort ist falsch, da das Feld 'Fragment Offset' die Position des Fragments innerhalb des ursprünglichen IP-Pakets angibt.",
+				"correct": false
+			},
+			{
+				"value": "Don't Fragment",
+				"reason": "Diese Antwort ist falsch, da das Feld 'Don't Fragment' angibt, ob das IP-Paket fragmentiert werden darf oder nicht.",
+				"correct": false
+			},
+			{
+				"value": "Flags",
+				"reason": "Diese Antwort ist korrekt, da das 'Flags'-Feld im IPv4-Header ein Bitfeld ist, das das letzte Fragment eines IP-Pakets anzeigt. Wenn das Bit gesetzt ist, handelt es sich um das letzte Fragment.",
+				"correct": true
+			}
+		]
+	},
+	{
+		"question": "Welche Funktion hat das ICMP-Protokoll?",
+		"answers": [
+			{
+				"value": "Das ICMP-Protokoll ist für die Übertragung von Fehlermeldungen und Statusnachrichten im IP-Netzwerk zuständig.",
+				"reason": "Diese Antwort ist korrekt, da das Internet Control Message Protocol (ICMP) ein Netzwerkprotokoll ist, das hauptsächlich für die Übertragung von Fehler- und Statusnachrichten im IP-Netzwerk verwendet wird.",
+				"correct": true
+			},
+			{
+				"value": "Das ICMP-Protokoll ist für die Übertragung von E-Mails zuständig.",
+				"reason": "Diese Antwort ist falsch, da das ICMP-Protokoll nicht für die Übertragung von E-Mails zuständig ist.",
+				"correct": false
+			},
+			{
+				"value": "Das ICMP-Protokoll ist für die Übertragung von Sprach- und Videodaten zuständig.",
+				"reason": "Diese Antwort ist falsch, da das ICMP-Protokoll nicht für die Übertragung von Sprach- und Videodaten zuständig ist.",
+				"correct": false
+			},
+			{
+				"value": "Das ICMP-Protokoll ist für die Verschlüsselung von Daten zuständig.",
+				"reason": "Diese Antwort ist falsch, da das ICMP-Protokoll nicht für die Verschlüsselung von Daten zuständig ist.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist der Zweck des IPv6-Protokolls?",
+		"answers": [
+			{
+				"value": "Das IPv6-Protokoll ist eine Weiterentwicklung des IPv4-Protokolls und soll dessen Adressierungsprobleme lösen.",
+				"reason": "Diese Antwort ist korrekt, da das Internet Protocol version 6 (IPv6) eine Weiterentwicklung des IPv4-Protokolls ist und eine größere Adressierungsgröße und erweiterte Funktionen bietet.",
+				"correct": true
+			},
+			{
+				"value": "Das IPv6-Protokoll ist eine veraltete Version des IPv4-Protokolls.",
+				"reason": "Diese Antwort ist falsch, da das IPv6-Protokoll eine Weiterentwicklung des IPv4-Protokolls ist und nicht veraltet ist.",
+				"correct": false
+			},
+			{
+				"value": "Das IPv6-Protokoll ist für die Übertragung von Sprach- und Videodaten zuständig.",
+				"reason": "Diese Antwort ist falsch, da das IPv6-Protokoll nicht für die Übertragung von Sprach- und Videodaten zuständig ist.",
+				"correct": false
+			},
+			{
+				"value": "Das IPv6-Protokoll ist für die Verschlüsselung von Daten zuständig.",
+				"reason": "Diese Antwort ist falsch, da das IPv6-Protokoll nicht für die Verschlüsselung von Daten zuständig ist.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Wie viele Bytes hat der IPv6-Header?",
+		"answers": [
+			{
+				"value": "40 Bytes",
+				"reason": "Diese Antwort ist korrekt, da der IPv6-Header standardmäßig 40 Bytes groß ist.",
+				"correct": true
+			},
+			{
+				"value": "20 Bytes",
+				"reason": "Diese Antwort ist falsch, da der IPv6-Header standardmäßig größer als 20 Bytes ist.",
+				"correct": false
+			},
+			{
+				"value": "60 Bytes",
+				"reason": "Diese Antwort ist falsch, da der IPv6-Header standardmäßig kleiner als 60 Bytes ist.",
+				"correct": false
+			},
+			{
+				"value": "80 Bytes",
+				"reason": "Diese Antwort ist falsch, da der IPv6-Header standardmäßig kleiner als 80 Bytes ist.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Feld im IPv6-Header gibt die maximale Anzahl an Zwischenstationen (Hops) an, die ein Paket durchlaufen darf?",
+		"answers": [
+			{
+				"value": "Hop Limit",
+				"reason": "Diese Antwort ist korrekt, da das Hop Limit-Feld im IPv6-Header die maximale Anzahl an Zwischenstationen (Hops) angibt, die ein Paket durchlaufen darf.",
+				"correct": true
+			},
+			{
+				"value": "Time to Live",
+				"reason": "Diese Antwort ist falsch, da das Time to Live-Feld im IPv4-Header die maximale Anzahl an Zwischenstationen (Hops) angibt, die ein Paket durchlaufen darf.",
+				"correct": false
+			},
+			{
+				"value": "Packet Size",
+				"reason": "Diese Antwort ist falsch, da das Packet Size-Feld im IPv6-Header nicht die maximale Anzahl an Zwischenstationen (Hops) angibt, die ein Paket durchlaufen darf.",
+				"correct": false
+			},
+			{
+				"value": "Checksum",
+				"reason": "Diese Antwort ist falsch, da das Checksum-Feld im IPv6-Header nicht die maximale Anzahl an Zwischenstationen (Hops) angibt, die ein Paket durchlaufen darf.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Feld im IPv6-Header gibt die Länge des Payloads (Nutzdaten) an?",
+		"answers": [
+			{
+				"value": "Payload Length",
+				"reason": "Diese Antwort ist korrekt, da das Payload Length-Feld im IPv6-Header die Länge des Payloads (Nutzdaten) angibt.",
+				"correct": true
+			},
+			{
+				"value": "Version",
+				"reason": "Diese Antwort ist falsch, da das Version-Feld im IPv6-Header die Version des Protokolls angibt.",
+				"correct": false
+			},
+			{
+				"value": "Next Header",
+				"reason": "Diese Antwort ist falsch, da das Next Header-Feld im IPv6-Header den Typ des nächsten Headers im Paket angibt.",
+				"correct": false
+			},
+			{
+				"value": "Hop Limit",
+				"reason": "Diese Antwort ist falsch, da das Hop Limit-Feld im IPv6-Header die maximale Anzahl an Zwischenstationen (Hops) angibt, die ein Paket durchlaufen darf.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Protokoll verwendet eine 3-Wege-Handshake-Verbindung, um eine Verbindung zwischen zwei Geräten herzustellen?",
+		"answers": [
+			{
+				"value": "TCP",
+				"reason": "Diese Antwort ist korrekt, da TCP eine 3-Wege-Handshake-Verbindung verwendet, um eine Verbindung zwischen zwei Geräten herzustellen.",
+				"correct": true
+			},
+			{
+				"value": "UDP",
+				"reason": "Diese Antwort ist falsch, da UDP keine Verbindung aufbaut, sondern einfach Datenpakete überträgt.",
+				"correct": false
+			},
+			{
+				"value": "ICMP",
+				"reason": "Diese Antwort ist falsch, da ICMP hauptsächlich für die Überwachung und Fehlerbehebung im Netzwerk verwendet wird.",
+				"correct": false
+			},
+			{
+				"value": "IP",
+				"reason": "Diese Antwort ist falsch, da IP keine Verbindungsorientierung bietet und keine 3-Wege-Handshake-Verbindung verwendet.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welcher Port wird häufig für HTTP-Verbindungen verwendet?",
+		"answers": [
+			{
+				"value": "Port 80",
+				"reason": "Diese Antwort ist korrekt, da Port 80 der Standardport für HTTP-Verbindungen ist.",
+				"correct": true
+			},
+			{
+				"value": "Port 443",
+				"reason": "Diese Antwort ist falsch, da Port 443 für HTTPS-Verbindungen verwendet wird.",
+				"correct": false
+			},
+			{
+				"value": "Port 53",
+				"reason": "Diese Antwort ist falsch, da Port 53 für DNS-Verbindungen verwendet wird.",
+				"correct": false
+			},
+			{
+				"value": "Port 22",
+				"reason": "Diese Antwort ist falsch, da Port 22 für SSH-Verbindungen verwendet wird.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welcher Port wird häufig für FTP-Verbindungen verwendet?",
+		"answers": [
+			{
+				"value": "Port 21",
+				"reason": "Diese Antwort ist korrekt, da Port 21 der Standardport für FTP-Verbindungen ist.",
+				"correct": true
+			},
+			{
+				"value": "Port 25",
+				"reason": "Diese Antwort ist falsch, da Port 25 für SMTP-Verbindungen verwendet wird.",
+				"correct": false
+			},
+			{
+				"value": "Port 80",
+				"reason": "Diese Antwort ist falsch, da Port 80 für HTTP-Verbindungen verwendet wird.",
+				"correct": false
+			},
+			{
+				"value": "Port 110",
+				"reason": "Diese Antwort ist falsch, da Port 110 für POP3-Verbindungen verwendet wird.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist der Unterschied zwischen statischem und dynamischem Routing?",
+		"answers": [
+			{
+				"value": "Statisches Routing wird manuell konfiguriert, während dynamisches Routing automatisch berechnet wird.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Statisches Routing ist schneller als dynamisches Routing.",
+				"reason": "Diese Aussage ist falsch. Statisches Routing erfordert manuelle Konfigurationen und kann länger dauern als dynamisches Routing.",
+				"correct": false
+			},
+			{
+				"value": "Dynamisches Routing wird nur in kleinen Netzwerken eingesetzt.",
+				"reason": "Diese Aussage ist falsch. Dynamisches Routing wird häufig in großen Netzwerken eingesetzt, um Routing-Tabellen zu verwalten und den Datenverkehr zu optimieren.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welche Vorteile hat das statische Routing gegenüber dem dynamischen Routing?",
+		"answers": [
+			{
+				"value": "Es ist einfacher zu implementieren und zu verwalten.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Es kann automatisch angepasst werden, um Ausfälle im Netzwerk zu berücksichtigen.",
+				"reason": "Diese Aussage bezieht sich auf dynamisches Routing und ist daher falsch.",
+				"correct": false
+			},
+			{
+				"value": "Es ist schneller als dynamisches Routing.",
+				"reason": "Diese Aussage ist falsch. Statisches Routing erfordert manuelle Konfigurationen und kann länger dauern als dynamisches Routing.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was sind Beispiele für Protokolle, die für das dynamische Routing verwendet werden?",
+		"answers": [
+			{
+				"value": "OSPF",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "BGP",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "RIP",
+				"reason": "",
+				"correct": true
+			}
+		]
+	},
+	{
+		"question": "Was ist der Hauptnachteil des dynamischen Routings?",
+		"answers": [
+			{
+				"value": "Es kann aufwändig sein, es zu konfigurieren und zu verwalten.",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Es kann zu Sicherheitsrisiken führen, wenn es falsch konfiguriert wird.",
+				"reason": "Diese Aussage ist wahr. Dynamisches Routing kann Sicherheitsrisiken mit sich bringen, wenn es nicht ordnungsgemäß konfiguriert oder verwaltet wird.",
+				"correct": true
+			},
+			{
+				"value": "Es ist langsamer als statisches Routing.",
+				"reason": "Diese Aussage ist falsch. Dynamisches Routing verwendet Routing-Protokolle, um den besten Pfad für den Datenverkehr zu finden, was normalerweise schneller ist als statisches Routing.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist das Ziel des dynamischen Routings?",
+		"answers": [
+			{
+				"value": "Das Finden des besten Pfads für den Datenverkehr.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Die manuelle Konfiguration von Routing-Tabellen.",
+				"reason": "Diese Aussage bezieht sich auf statisches Routing und ist daher falsch.",
+				"correct": false
+			},
+			{
+				"value": "Die Verhinderung von Sicherheitsbedrohungen.",
+				"reason": "Das ist kein primäres Ziel des dynamischen Routings. Dynamisches Routing wird verwendet, um die beste Route für den Datenverkehr in einem Netzwerk zu finden.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist ein IGP?",
+		"answers": [
+			{
+				"value": "Ein Interior Gateway Protocol (IGP) ist ein Routing-Protokoll, das innerhalb eines autonomen Systems verwendet wird.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Ein Exterieur Gateway Protocol (EGP) ist ein Routing-Protokoll, das innerhalb eines autonomen Systems verwendet wird.",
+				"reason": "Diese Aussage bezieht sich auf IGP und ist daher falsch.",
+				"correct": false
+			},
+			{
+				"value": "Ein IGP wird verwendet, um den Datenverkehr zwischen autonomen Systemen zu routen.",
+				"reason": "Diese Aussage ist falsch. Ein IGP wird innerhalb eines autonomen Systems verwendet, um den Datenverkehr zu routen.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist ein EGP?",
+		"answers": [
+			{
+				"value": "Ein Exterior Gateway Protocol (EGP) ist ein Routing-Protokoll, das zwischen autonomen Systemen verwendet wird.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Ein IGP ist ein Routing-Protokoll, das zwischen autonomen Systemen verwendet wird.",
+				"reason": "Diese Aussage bezieht sich auf EGP und ist daher falsch.",
+				"correct": false
+			},
+			{
+				"value": "Ein EGP wird verwendet, um den Datenverkehr innerhalb eines autonomen Systems zu routen.",
+				"reason": "Diese Aussage ist falsch. Ein EGP wird zwischen autonomen Systemen verwendet, um den Datenverkehr zu routen.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welche sind Beispiele für IGP-Protokolle?",
+		"answers": [
+			{
+				"value": "OSPF",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "BGP",
+				"reason": "Diese Aussage bezieht sich auf EGP und ist daher falsch.",
+				"correct": false
+			},
+			{
+				"value": "IS-IS",
+				"reason": "",
+				"correct": true
+			}
+		]
+	},
+	{
+		"question": "Welche sind Beispiele für EGP-Protokolle?",
+		"answers": [
+			{
+				"value": "BGP",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "OSPF",
+				"reason": "Diese Aussage bezieht sich auf IGP und ist daher falsch.",
+				"correct": false
+			},
+			{
+				"value": "IS-IS",
+				"reason": "Diese Aussage bezieht sich auf IGP und ist daher falsch.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist der Hauptunterschied zwischen IGP und EGP?",
+		"answers": [
+			{
+				"value": "IGP wird innerhalb eines autonomen Systems verwendet, während EGP zwischen autonomen Systemen verwendet wird.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "IGP ist schneller als EGP.",
+				"reason": "Diese Aussage ist falsch. Die Geschwindigkeit von IGP und EGP hängt von den spezifischen Protokollen und der Netzwerktopologie ab.",
+				"correct": false
+			},
+			{
+				"value": "EGP ist einfacher zu konfigurieren als IGP.",
+				"reason": "Diese Aussage ist falsch. Die Komplexität der Konfiguration hängt von den spezifischen Protokollen und der Netzwerktopologie ab.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Routing-Protokoll ist ein Distance-Vector-Protokoll?",
+		"answers": [
+			{
+				"value": "RIP",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "OSPF",
+				"reason": "OSPF ist ein Link-State-Protokoll.",
+				"correct": false
+			},
+			{
+				"value": "EIGRP",
+				"reason": "EIGRP ist ein Hybrid-Protokoll.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Routing-Protokoll ist ein Hybrid-Protokoll?",
+		"answers": [
+			{
+				"value": "EIGRP",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "OSPF",
+				"reason": "OSPF ist ein Link-State-Protokoll.",
+				"correct": false
+			},
+			{
+				"value": "RIP",
+				"reason": "RIP ist ein Distance-Vector-Protokoll.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Routing-Protokoll verwendet Bandbreite, Verzögerung, Zuverlässigkeit, Last und MTU als Metriken?",
+		"answers": [
+			{
+				"value": "EIGRP",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "RIP",
+				"reason": "RIP verwendet nur die Anzahl der Hops als Metrik.",
+				"correct": false
+			},
+			{
+				"value": "OSPF",
+				"reason": "OSPF verwendet Kosten basierend auf der Bandbreite der Verbindungen.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Routing-Protokoll ist ein Link-State-Protokoll?",
+		"answers": [
+			{
+				"value": "OSPF",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "EIGRP",
+				"reason": "EIGRP ist ein Hybrid-Protokoll.",
+				"correct": false
+			},
+			{
+				"value": "RIP",
+				"reason": "RIP ist ein Distance-Vector-Protokoll.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Routing-Protokoll ist am besten für große, komplexe Netzwerke geeignet?",
+		"answers": [
+			{
+				"value": "OSPF",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "EIGRP",
+				"reason": "EIGRP kann auch für große, komplexe Netzwerke geeignet sein, ist jedoch weniger skalierbar als OSPF.",
+				"correct": false
+			},
+			{
+				"value": "RIP",
+				"reason": "RIP ist für große, komplexe Netzwerke nicht geeignet.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Routing-Protokoll verwendet den DUAL-Algorithmus?",
+		"answers": [
+			{
+				"value": "EIGRP",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "OSPF",
+				"reason": "OSPF verwendet den SPF-Algorithmus.",
+				"correct": false
+			},
+			{
+				"value": "RIP",
+				"reason": "RIP verwendet einen einfachen Algorithmus, um die kürzeste Route zu finden.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Routing-Protokoll verwendet CIDR (Classless Inter-Domain Routing)?",
+		"answers": [
+			{
+				"value": "OSPF",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "EIGRP",
+				"reason": "EIGRP unterstützt auch CIDR, aber es wurde erst später hinzugefügt.",
+				"correct": false
+			},
+			{
+				"value": "RIP",
+				"reason": "RIP unterstützt keine CIDR-Adressierung.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Routing-Protokoll ist standardmäßig aktiviert und konfiguriert, wenn ein Cisco-Router zum ersten Mal gestartet wird?",
+		"answers": [
+			{
+				"value": "RIP",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "EIGRP",
+				"reason": "EIGRP muss manuell aktiviert und konfiguriert werden.",
+				"correct": false
+			},
+			{
+				"value": "OSPF",
+				"reason": "OSPF muss manuell aktiviert und konfiguriert werden.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Routing-Protokoll verwendet eine Hierarchie aus ABRs (Area Border Routers) und ASBRs (Autonomous System Boundary Routers)?",
+		"answers": [
+			{
+				"value": "OSPF",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "EIGRP",
+				"reason": "EIGRP verwendet eine flache Topologie.",
+				"correct": false
+			},
+			{
+				"value": "RIP",
+				"reason": "RIP verwendet auch eine flache Topologie.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Routing-Protokoll verwendet den BDR (Backup Designated Router) und DR (Designated Router)?",
+		"answers": [
+			{
+				"value": "OSPF",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "EIGRP",
+				"reason": "EIGRP verwendet keine BDR- und DR-Router.",
+				"correct": false
+			},
+			{
+				"value": "RIP",
+				"reason": "RIP verwendet auch keine BDR- und DR-Router.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Routing-Protokoll verwendet eine Hop-Count-Metrik?",
+		"answers": [
+			{
+				"value": "RIP",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "OSPF",
+				"reason": "OSPF verwendet eine Kostenmetrik.",
+				"correct": false
+			},
+			{
+				"value": "EIGRP",
+				"reason": "EIGRP verwendet eine erweiterte Metrik.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist die administrative Distanz für direkt angeschlossene Netze?",
+		"answers": [
+			{
+				"value": "0",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "1",
+				"reason": "Die administrative Distanz für interne Routing-Protokolle ist normalerweise 1.",
+				"correct": false
+			},
+			{
+				"value": "2",
+				"reason": "Die administrative Distanz für externe Routing-Protokolle ist normalerweise 20.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist die Konvergenzzeit bei Distance-Vector-Routing-Protokollen?",
+		"answers": [
+			{
+				"value": "Langsam",
+				"reason": "Distance-Vector-Routing-Protokolle benötigen normalerweise einige Zeit, um sich zu konvergieren.",
+				"correct": true
+			},
+			{
+				"value": "Schnell",
+				"reason": "Link-State-Routing-Protokolle konvergieren normalerweise schneller.",
+				"correct": false
+			},
+			{
+				"value": "Mittel",
+				"reason": "",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Welches Routing-Protokoll verwendet die Bellman-Ford-Algorithmus?",
+		"answers": [
+			{
+				"value": "RIP",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "OSPF",
+				"reason": "OSPF verwendet den SPF-Algorithmus.",
+				"correct": false
+			},
+			{
+				"value": "EIGRP",
+				"reason": "EIGRP verwendet den DUAL-Algorithmus.",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist die maximale Anzahl an Hop-Counts bei RIP?",
+		"answers": [
+			{
+				"value": "15",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "100",
+				"reason": "Die maximale Anzahl an Hop-Counts bei EIGRP ist 100.",
+				"correct": false
+			},
+			{
+				"value": "Unbegrenzt",
+				"reason": "",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist Split Horizon in Bezug auf Routing-Protokolle?",
+		"answers": [
+			{
+				"value": "Eine Methode, um Schleifen zu vermeiden, indem Informationen über ein Netzwerksegment nicht an das Netzwerksegment zurückgesendet werden, von dem sie empfangen wurden.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Eine Methode, um die Konvergenzzeit zu beschleunigen, indem Router schneller Updates an andere Router senden.",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Eine Methode, um die Metrik für ein Netzwerksegment zu erhöhen, damit andere Router es als schlechtere Route betrachten.",
+				"reason": "",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was sind Triggered Updates in Bezug auf Routing-Protokolle?",
+		"answers": [
+			{
+				"value": "Updates, die von einem Router sofort gesendet werden, wenn eine Veränderung des Netzwerks oder der Topologie erkannt wird.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Updates, die von einem Router periodisch gesendet werden, um anderen Routern Informationen über das Netzwerk zur Verfügung zu stellen.",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Updates, die von einem Router nur an bestimmte andere Router gesendet werden, um bestimmte Routen zu beeinflussen.",
+				"reason": "",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist Count to Infinity in Bezug auf Routing-Protokolle?",
+		"answers": [
+			{
+				"value": "Ein Phänomen, bei dem Routing-Informationen durch Schleifen unzuverlässig werden und Router fälschlicherweise glauben, dass entfernte Netzwerke erreichbar sind.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Ein Mechanismus, um zu verhindern, dass Schleifen bei Routing-Informationen auftreten, indem Router eine maximale Anzahl an Hops festlegen.",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Ein Mechanismus, um die Konvergenzzeit von Routing-Protokollen zu beschleunigen, indem Router schnellere Updates senden.",
+				"reason": "",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist Route Poisoning in Bezug auf Routing-Protokolle?",
+		"answers": [
+			{
+				"value": "Eine Methode, um Routing-Schleifen zu vermeiden, indem Router die entfernten Netzwerke als unerreichbar markieren.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Eine Methode, um Routing-Schleifen zu erkennen, indem Router eine maximale Anzahl an Hops festlegen.",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Eine Methode, um Routing-Schleifen zu durchbrechen, indem Router eine bessere Route finden und verwenden.",
+				"reason": "",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Wie kann Count to Infinity bei Distance-Vector-Routing-Protokollen verhindert werden?",
+		"answers": [
+			{
+				"value": "Durch Verwendung von Mechanismen wie Split Horizon, Route Poisoning und Triggered Updates.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Durch die Verwendung von Link-State-Routing-Protokollen anstelle von Distance-Vector-Protokollen.",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Durch die Erhöhung der Metrik für bestimmte Netzwerksegmente, um sicherzustellen, dass sie als schlechtere Routen betrachtet werden.",
+				"reason": "",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist Administrative Distanz in Bezug auf Routing-Protokolle?",
+		"answers": [
+			{
+				"value": "Ein Bewertungsfaktor, der die Vertrauenswürdigkeit einer Routing-Information angibt, basierend auf der Quelle, von der sie empfangen wurde.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Ein Faktor, der angibt, wie schnell ein Router Konvergenzinformationen empfangen und verarbeiten kann.",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Ein Faktor, der angibt, wie gut ein Router in der Lage ist, Schleifen in Routing-Informationen zu erkennen und zu vermeiden.",
+				"reason": "",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist der Unterschied zwischen Distance-Vector- und Link-State-Routing-Protokollen?",
+		"answers": [
+			{
+				"value": "Distance-Vector-Protokolle verwenden eine vereinfachte Metrik, um Entscheidungen über Routen zu treffen, während Link-State-Protokolle eine komplexe Metrik verwenden, die mehrere Faktoren berücksichtigt.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Distance-Vector-Protokolle sind besser geeignet für kleine Netzwerke, während Link-State-Protokolle besser für große Netzwerke geeignet sind.",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Distance-Vector-Protokolle verwenden Triggered Updates, um schneller auf Änderungen im Netzwerk zu reagieren, während Link-State-Protokolle sich auf periodische Updates verlassen.",
+				"reason": "",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist die Metrik in Bezug auf Routing-Protokolle?",
+		"answers": [
+			{
+				"value": "Ein Bewertungsfaktor, der angibt, wie gut eine bestimmte Route zu einem bestimmten Zielnetzwerk ist.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Ein Faktor, der angibt, wie schnell ein Router Konvergenzinformationen empfangen und verarbeiten kann.",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Ein Faktor, der angibt, wie gut ein Router in der Lage ist, Schleifen in Routing-Informationen zu erkennen und zu vermeiden.",
+				"reason": "",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist Konvergenzzeit in Bezug auf Routing-Protokolle?",
+		"answers": [
+			{
+				"value": "Die Zeit, die ein Netzwerk benötigt, um alle Router dazu zu bringen, sich auf eine gemeinsame Routing-Tabelle zu einigen, nachdem eine Änderung im Netzwerk aufgetreten ist.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Die Zeit, die ein Router benötigt, um die beste Route zu einem bestimmten Zielnetzwerk zu finden.",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Die Zeit, die ein Router benötigt, um Routing-Informationen an seine direkten Nachbarn weiterzuleiten.",
+				"reason": "",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist Count-to-Infinity im Kontext von Routing-Protokollen?",
+		"answers": [
+			{
+				"value": "Ein Problem, das in Distance-Vector-Routing-Protokollen auftreten kann, wenn ein Router seine direkten Nachbarn als verfügbar ansieht, obwohl sie tatsächlich nicht erreichbar sind.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Eine Technik, die von Link-State-Routing-Protokollen verwendet wird, um eine schnellere Konvergenz zu erreichen, indem Informationen nur an bestimmte Nachbarn weitergegeben werden.",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Ein Mechanismus, der verwendet wird, um eine Schleife in Routing-Informationen zu erkennen und zu vermeiden.",
+				"reason": "",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist Route Poisoning im Kontext von Routing-Protokollen?",
+		"answers": [
+			{
+				"value": "Eine Technik, die verwendet wird, um Router darüber zu informieren, dass eine bestimmte Route nicht mehr verfügbar ist, indem die Metrik für diese Route unendlich gemacht wird.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Eine Technik, die von Link-State-Routing-Protokollen verwendet wird, um eine schnellere Konvergenz zu erreichen, indem Informationen nur an bestimmte Nachbarn weitergegeben werden.",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Ein Mechanismus, der verwendet wird, um eine Schleife in Routing-Informationen zu erkennen und zu vermeiden.",
+				"reason": "",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist Triggered Updates im Kontext von Routing-Protokollen?",
+		"answers": [
+			{
+				"value": "Ein Mechanismus, der von Distance-Vector-Routing-Protokollen verwendet wird, um schnell auf Änderungen im Netzwerk zu reagieren, indem Updates nur dann gesendet werden, wenn sich eine Route ändert.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Eine Technik, die von Link-State-Routing-Protokollen verwendet wird, um eine schnellere Konvergenz zu erreichen, indem Informationen nur an bestimmte Nachbarn weitergegeben werden.",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Ein Mechanismus, der verwendet wird, um eine Schleife in Routing-Informationen zu erkennen und zu vermeiden.",
+				"reason": "",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "Was ist Split Horizon im Kontext von Routing-Protokollen?",
+		"answers": [
+			{
+				"value": "Eine Technik, die von Distance-Vector-Routing-Protokollen verwendet wird, um Routing-Schleifen zu vermeiden, indem ein Router keine Routing-Updates an den Nachbarn sendet, von dem er eine Routing-Information empfangen hat.",
+				"reason": "",
+				"correct": true
+			},
+			{
+				"value": "Eine Technik, die von Link-State-Routing-Protokollen verwendet wird, um eine schnellere Konvergenz zu erreichen, indem Informationen nur an bestimmte Nachbarn weitergegeben werden.",
+				"reason": "",
+				"correct": false
+			},
+			{
+				"value": "Ein Mechanismus, der verwendet wird, um eine Schleife in Routing-Informationen zu erkennen und zu vermeiden.",
+				"reason": "",
+				"correct": false
+			}
+		]
+	}
+]
